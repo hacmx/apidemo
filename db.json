@@ -1,5 +1,5 @@
 {
-    "wsp_mensaje": "REQUISITOS ENCONTRADOS",
+    "wsp_mensaje": {"REQUISITOS ENCONTRADOS"},
     "wsp_requisitos": [
         {
             "wsp_nombre_requisito": "Identificación con fotografía vigente y legible (INE, pasaporte, cédula profesional y/o cartilla militar)",
@@ -35,5 +35,5 @@
             "wsp_obligatorio": 0
         }
     ],
-    "wsp_acreditado": true
+    "wsp_acreditado": {true}
 }
