@@ -1,31 +1,39 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "wsp_mensaje": "REQUISITOS ENCONTRADOS",
+    "wsp_requisitos": [
+        {
+            "wsp_nombre_requisito": "Identificación con fotografía vigente y legible (INE, pasaporte, cédula profesional y/o cartilla militar)",
+            "wsp_estatus": 1,
+            "wsp_id_documento_acreditado": "116335",
+            "wsp_codigo_acreditado": "0001",
+            "wsp_nombre_acreditado": "Credencial para Votar (INE)",
+            "wsp_url_documento": "/system/files/repositorio/2020/11/INE.pdf",
+            "wsp_url_adjuntar": "/nuevodocexrepositorio",
+            "wsp_disponible": 1,
+            "wsp_obligatorio": 1
+        },
+        {
+            "wsp_nombre_requisito": "Comprobante de domicilio (agua, luz o teléfono fijo con vigencia no mayor a tres meses)",
+            "wsp_estatus": 1,
+            "wsp_id_documento_acreditado": "116334",
+            "wsp_codigo_acreditado": "0006",
+            "wsp_nombre_acreditado": "Recibo de Luz",
+            "wsp_url_documento": "/system/files/repositorio/2020/11/comprobante%20de%20domicilio.pdf",
+            "wsp_url_adjuntar": "/nuevodocexrepositorio",
+            "wsp_disponible": 1,
+            "wsp_obligatorio": 1
+        },
+        {
+            "wsp_nombre_requisito": "Licencia Vencida",
+            "wsp_estatus": 1,
+            "wsp_id_documento_acreditado": "116333",
+            "wsp_codigo_acreditado": "008",
+            "wsp_nombre_acreditado": "Licencia de Conducir",
+            "wsp_url_documento": "/system/files/repositorio/2020/11/licencia%20automovilista.pdf",
+            "wsp_url_adjuntar": "/nuevodocexrepositorio",
+            "wsp_disponible": 1,
+            "wsp_obligatorio": 0
+        }
+    ],
+    "wsp_acreditado": true
 }
